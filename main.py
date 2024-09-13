@@ -25,7 +25,6 @@ def calculatorDerivative():
 root = tk.Tk()
 root.title("Kalkulator Pochodnych")
 
-# Tworzenie i rozmieszczanie widgetów
 tk.Label(root, text="Podaj funkcję:").pack()
 function_entry = tk.Entry(root)
 function_entry.pack(fill=tk.X, padx=10)
@@ -38,5 +37,4 @@ calculate_button.pack(pady=10)
 result_label = tk.Label(root)
 result_label.pack(pady=10)
 
-# Uruchamianie pętli głównej Tkinter
 root.mainloop()
